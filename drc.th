@@ -1,5 +1,5 @@
 #::= digital root calculator
-#::= written by Keymaker
+#::= written by Keymaker (slightly reformatted for this interpreter)
 #::= use digits (0123456789) to input your non-negative integer
 b::=:::
 0::=~
