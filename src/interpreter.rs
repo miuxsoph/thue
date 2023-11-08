@@ -18,7 +18,7 @@ pub fn run_program (tp: ThueProgram) {
                 // If the rule is empty, output a newline
                 print!("{}", if rule.right != "" {
                     rule.right.clone()
-                } else { String::from("\n") });
+                } else { String::from("") });
                 repl = String::from("");
             }
             if rule.special == SpecialType::Input {
@@ -28,7 +28,7 @@ pub fn run_program (tp: ThueProgram) {
         }
     }
 
-    println!("\nFinal string:\n{}", output);
+    println!("{}", output);
 }
 
 // Gets a line from stdin
